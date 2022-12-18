@@ -1,0 +1,19 @@
+﻿<Window x:Class="Compiler_.View.InputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Compiler_.View"
+        mc:Ignorable="d"
+        Title="InputWindow" Height="100" Width="400">
+    <Grid
+        x:Name="inputWindow">
+        <TextBox
+            Margin="10"
+            FontSize="16"
+            Name="tbInput"
+            PreviewKeyDown="Submit"
+            >            
+        </TextBox>
+    </Grid>
+</Window>
